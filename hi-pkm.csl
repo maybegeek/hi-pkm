@@ -2159,7 +2159,7 @@
     <!-- This generates the info about where, by whom, when and in what part of a container (i.e. page-range) the entry was published (used in <citation> and <bibliography>). -->
     <macro name="published">
       <text prefix=", " macro="edition"/>
-      <text prefix=", " macro="place-and-publisher"/>
+      <text prefix=". " macro="place-and-publisher"/>
       <choose>
         <if type="article-journal article-magazine" match="any">
   	<choose>
