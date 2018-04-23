@@ -2969,7 +2969,7 @@
       </layout>
     </citation>
 
-    <bibliography delimiter-precedes-last="never" delimiter-precedes-et-al="never" et-al-min="4" et-al-use-first="3" and="text" hanging-indent="true" entry-spacing="0" subsequent-author-substitute="---">
+    <bibliography delimiter-precedes-last="never" delimiter-precedes-et-al="never" et-al-min="4" et-al-use-first="3" and="text" hanging-indent="true" entry-spacing="0">
       <sort>
         <key macro="bib-sort-types"/>
         <key macro="main-contributors-title-bib-sort"/>
