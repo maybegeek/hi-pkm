@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="note" default-locale="de-DE" demote-non-dropping-particle="sort-only">
   <info>
-    <title>Referenz Geisteswissenschaften (Heilmann) (German)</title>
-    <id>http://www.tillheilmann.info/code/referenz-geisteswissenschaften-heilmann</id>
-    <link href="http://www.tillheilmann.info/" rel="documentation"/>
+    <title>HI PKM</title>
+    <id>https://github.com/maybegeek/hi-pkm/blob/master/hi-pkm.csl</id>
+    <link href="https://github.com/maybegeek/hi-pkm/" rel="documentation"/>
     <author>
-      <name>Till A. Heilmann</name>
-      <email>mail@tillheilmann.info</email>
-      <uri>http://www.tillheilmann.info</uri>
+      <name>Christoph Pfeiffer</name>
+      <email>christoph.pfeiffer@ur.de</email>
+      <uri>https://github.com/maybegeek/hi-pkm/</uri>
     </author>
+    <contributor>
+      <name>Till A. Heilmann</name>
+      <uri>http://www.tillheilmann.info</uri>
+    </contributor>
     <category citation-format="note"/>
     <category field="humanities"/>
     <summary>"Reference" or template style for German humanities supporting all CSL types and variables. Citations in notes; full bibliography. See code for further comments and instructions.</summary>
