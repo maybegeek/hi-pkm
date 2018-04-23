@@ -968,14 +968,14 @@
   	  <else-if variable="author editor" match="none">
   	    <choose>
   	      <if variable="collection-title" is-numeric="collection-number" match="all">
-  		<group delimiter="&#160;">
-  		  <text variable="collection-title" font-style="italic" text-case="title"/>
-  		  <text variable="collection-number" font-style="italic"/>
+            <group delimiter=", ">
+        		  <text variable="collection-title" font-style="italic" text-case="title" prefix="=&#8202;"/>
+        		  <text variable="collection-number" font-style="italic" />
   		</group>
   	      </if>
   	      <else-if variable="collection-title">
   		<group delimiter=", " >
-  		  <text variable="collection-title" font-style="italic" text-case="title"/>
+		  <text variable="collection-title" font-style="italic" text-case="title" prefix="=&#8202;"/>
   		  <text variable="collection-number" font-style="italic"/>
   		</group>
   	      </else-if>
@@ -1341,14 +1341,14 @@
   	  <else-if variable="author editor" match="none">
   	    <choose>
   	      <if variable="collection-title" is-numeric="collection-number" match="all">
-  		<group delimiter="&#160;">
-  		  <text variable="collection-title" font-style="italic" text-case="title"/>
+            <group delimiter=", ">
+        		  <text variable="collection-title" font-style="italic" text-case="title" prefix="=&#8202;"/>
   		  <text variable="collection-number" font-style="italic"/>
   		</group>
   	      </if>
   	      <else-if variable="collection-title">
   		<group delimiter=", " >
-  		  <text variable="collection-title" font-style="italic" text-case="title"/>
+		  <text variable="collection-title" font-style="italic" text-case="title" prefix="=&#8202;"/>
   		  <text variable="collection-number" font-style="italic"/>
   		</group>
   	      </else-if>
@@ -2114,16 +2114,16 @@
   	<choose>
   	  <if variable="author editor title title-short" match="any">
   	    <!-- Because 'is-numeric' tests false for common 'collection-numbers' like "60.1" or "VI.2" we cannot distinguish between such "numeric" and other, "non-numeric" collection numbers like "Bd. 2: XYZ". -->
-  	    <group delimiter="&#160;">
-  	      <text variable="collection-title" text-case="title"/>
+        <group delimiter=", ">
+  	      <text variable="collection-title" text-case="title" prefix="=&#8202;"/>
   	      <text variable="collection-number"/>
   	    </group>
   	  </if>
   	</choose>
         </if>
         <else-if type="chapter entry-dictionary entry-encyclopedia paper-conference" match="any">
-  	<group delimiter="&#160;">
-  	  <text variable="collection-title" text-case="title"/>
+          <group delimiter=", ">
+        	  <text variable="collection-title" text-case="title" prefix="=&#8202;"/>
   	  <text variable="collection-number"/>
   	</group>
         </else-if>
