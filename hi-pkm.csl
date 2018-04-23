@@ -15,8 +15,8 @@
     </contributor>
     <category citation-format="note"/>
     <category field="humanities"/>
-    <summary>"Reference" or template style for German humanities supporting all CSL types and variables. Citations in notes; full bibliography. See code for further comments and instructions.</summary>
-    <updated>2018-01-30T13:20:00+01:00</updated>
+    <summary>Anpassung der wunderbaren Vorlage von Till A. Heilmann (http://www.tillheilmann.info, CC-BY-SA-3.0) an die Gegebenheiten der Universität Hildesheim, für den Fachbereich 2, dort PKM (Philosophie-Künste-Medien). Für die (opinionated!) Änderungen verantwortlich: Christoph Pfeiffer.</summary>
+    <updated>2018-04-23T13:20:00+01:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!--
