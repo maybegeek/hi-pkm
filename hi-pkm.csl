@@ -2327,10 +2327,7 @@
   	    </group>
   	  </if>
   	  <else-if variable="edition">
-  	    <group delimiter=" ">
-                <text variable="edition"/>
-                <text term="edition" form="short"/>
-  	    </group>
+        <text variable="edition"/>
   	  </else-if>
   	</choose>
         </else>
@@ -2727,7 +2724,7 @@
   	    </group>
   	  </if>
   	  <else-if variable="DOI URL" match="none">
-  	    <!-- Only show "o. S." ("no pages") when there is no URL or DOI. -->
+      <!-- Only show "o. S." ("no pages") when there is no URL or DOI. -->
   	    <text value="o.&#160;S."/>
   	  </else-if>
   	</choose>
