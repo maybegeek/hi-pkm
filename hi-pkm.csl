@@ -2164,7 +2164,7 @@
         <if type="article-journal article-magazine" match="any">
   	<choose>
   	  <if variable="publisher publisher-place" match="any">
-  	    <text prefix=" " macro="main-date"/>
+  	    <text prefix=", " macro="main-date"/>
   	  </if>
   	  <else>
   	    <text prefix=", " macro="main-date"/>
@@ -2175,13 +2175,13 @@
   	<text prefix=", " macro="main-date"/>
         </else-if>
         <else-if type="book chapter entry-dictionary entry-encyclopedia" match="any">
-  	<text prefix=" " macro="main-date"/>
+  	<text prefix=", " macro="main-date"/>
         </else-if>
         <else-if type="graphic">
   	<text prefix=", " macro="main-date"/>
         </else-if>
         <else-if type="map" variable="publisher-place" match="all">
-  	<text prefix=" " macro="main-date"/>
+  	<text prefix=", " macro="main-date"/>
         </else-if>
         <else-if type="map">
   	<text prefix=", " macro="main-date"/>
@@ -2194,7 +2194,7 @@
   	  </if>
   	  <else-if variable="publisher publisher-place" match="any">
   	    <!-- We treat 'motion_picture' _without_ 'collection-title' or 'version' (see above) as a 'Film'. -->
-  	    <text prefix=" " macro="main-date"/>
+  	    <text prefix=", " macro="main-date"/>
   	  </else-if>
   	  <else>
   	    <text prefix=", " macro="main-date"/>
@@ -2209,7 +2209,7 @@
   	<!-- We treat 'song' _without_ 'number' (see above) as a 'Tonaufnahme' / 'audioRecording'. -->
   	<choose>
   	  <if variable="publisher publisher-place" match="any">
-  	    <text prefix=" " macro="main-date"/>
+  	    <text prefix=", " macro="main-date"/>
   	  </if>
   	  <else>
   	    <text prefix=", " macro="main-date"/>
@@ -2222,7 +2222,7 @@
   	    <text prefix=", " macro="main-date"/>
   	  </if>
   	  <else>
-  	    <text prefix=" " macro="main-date"/>
+  	    <text prefix=", " macro="main-date"/>
   	  </else>
   	</choose>
         </else-if>
