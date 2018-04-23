@@ -2976,6 +2976,7 @@
         <key macro="main-title-addendum"/>
         <key macro="additional-main-contributors"/>
       </sort>
+      <!-- HI PKM Vorlage möchte keinen Punkt am Ende der Bibliographie. Die folgende Zeile also entsprechend anpassen: `<layout suffix="">` -->
       <layout suffix=".">
         <choose>
   	<if type="bill legal_case legislation" match="none">
