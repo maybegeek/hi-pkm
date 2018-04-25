@@ -14,16 +14,29 @@ html {
 body {
   margin: 0;
   display: grid;
-  grid-template-columns: minmax(200px, 800px);
+  grid-template-columns: minmax(200px, 680px);
   padding: 1em;
   justify-content: center;
   font-family: "Vollkorn", serif;
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: rgb(47, 54, 64);
 }
 
 a {
   color: rgb(238, 127, 0);
+  text-decoration: none;
+}
+
+a.big {
+  display: inline-block;
+  padding: 0.6em;
+  color: white;
+  background-color: rgb(238, 127, 0);
+  font-size: 1.2em;
+  font-weight: bold;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
 
 header h1 {
