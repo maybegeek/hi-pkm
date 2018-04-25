@@ -86,6 +86,12 @@ a.big {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+  transition: all .2s ease-in-out;
+  margin-left: 1em;
+}
+
+a.big:hover {
+  transform: scale(1.05);
 }
 
 header h1 {
