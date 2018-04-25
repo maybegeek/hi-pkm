@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: minmax(200px, 820px);
+  padding: 1em;
+  justify-content: center;
+  font-family: "Vollkorn", serif;
+  font-size: 2em;
+}
