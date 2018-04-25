@@ -14,9 +14,18 @@ html {
 body {
   margin: 0;
   display: grid;
-  grid-template-columns: minmax(200px, 820px);
+  grid-template-columns: minmax(200px, 800px);
   padding: 1em;
   justify-content: center;
   font-family: "Vollkorn", serif;
-  font-size: 2em;
+  font-size: 1.4em;
+  color: rgb(47, 54, 64);
+}
+
+a {
+  color: rgb(238, 127, 0);
+}
+
+header h1 {
+  line-height: 1.1;
 }
