@@ -29,7 +29,7 @@ a {
 
 a.big {
   display: inline-block;
-  padding: 0.6em;
+  padding: 0.48em 0.68em;
   color: white;
   background-color: rgb(238, 127, 0);
   font-size: 1.2em;
