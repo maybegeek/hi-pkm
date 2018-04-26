@@ -1,13 +1,5 @@
 .wf-loading * {
-
-    /*
-    first things first, we need to hide everything,
-    but bear in mind that this will only take effect
-    once the loading script has taken effect.
-    here we're hiding all content within
-    the <html> once it has the class "wf-loading"
-    */
-    opacity: 0;
+  opacity: 0;
 }
 
 * {
@@ -34,42 +26,18 @@ body {
   color: rgb(47, 54, 64);
 }
 
-
 .wf-loading:after {
-
-    /*
-    first up, we need
-    to define some content
-    */
-    content: "loading ...";
-
-    /*
-    let's now give it some
-    dimensions, a background
-    color and position
-    it on the page
-    */
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-
-    /*
-    okay, so what do we want
-    our label to actually
-    look like?
-    */
-    color: #135040;
-    font-size: 1.5em;
-    font-weight: bold;
-    line-height: 20em;
-    text-align: center;
-
+  content: "loading ...";
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 20em;
+  text-align: center;
 }
-
-
-
 
 a {
   color: rgb(238, 127, 0);
@@ -101,4 +69,10 @@ header h1 {
 article h2 {
   margin-top: 2.2em;
   margin-bottom: 0.2em;
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 1.18em;
+  }
 }
