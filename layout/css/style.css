@@ -74,12 +74,20 @@ article h2 {
 article h3 {
   margin-top: 2em;
   margin-bottom: 0.1em;
+  font-size: 1.4em;
+}
+
+article.beispiele h3::before {
+  content: "❦ ";
+  color: rgba(238, 127, 0, 0.9);
 }
 
 article h4 {
   margin-top: 1.8em;
   margin-bottom: 0.1em;
 }
+
+
 
 p.cit {
   background-color: rgba(238, 127, 0, 0.8);
