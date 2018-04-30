@@ -75,11 +75,16 @@ article h3 {
   margin-top: 2em;
   margin-bottom: 0.1em;
   font-size: 1.48em;
+  text-indent: -1.2em;
+  padding-left: 1.2em;
+  line-height: 1.12;
 }
 
 article.beispiele h3::before {
   content: "❦ ";
   color: rgba(238, 127, 0, 0.9);
+  font-weight: normal;
+  font-size: 1.3em;
 }
 
 article h4 {
