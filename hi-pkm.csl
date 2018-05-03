@@ -2338,7 +2338,11 @@
     <macro name="volume-and-issue">
       <choose>
         <if type="article-journal article-magazine" match="any">
-  	<group delimiter=", ">
+          <group>
+            <text variable="volume" prefix="" />
+            <text variable="issue" prefix="(" suffix=")"/>
+          </group>
+  	<!--<group delimiter=", ">
   	  <group>
   	    <choose>
   	      <if is-numeric="volume">
@@ -2355,7 +2359,7 @@
   	    </choose>
   	    <text variable="issue"/>
   	  </group>
-  	</group>
+  	</group>-->
         </if>
         <else-if type="article-newspaper">
   	<choose>

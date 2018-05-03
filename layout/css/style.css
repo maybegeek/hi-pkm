@@ -80,6 +80,8 @@ article h3 {
 article.beispiele h3::before {
   content: "❦ ";
   color: rgba(238, 127, 0, 0.9);
+  font-weight: normal;
+  font-size: 1.4em;
 }
 
 article h4 {
